@@ -34,7 +34,7 @@ class st2::profile::nodejs {
     # to avoid their verification checks (ugh...).
     else {
       class { '::nodejs':
-        repo_url_suffix => '4.x',
+        repo_url_suffix => '6.x',
         repo_class      => 'nodejs::repo::nodesource',
       }
     }
@@ -42,7 +42,7 @@ class st2::profile::nodejs {
   else {
     # else install nodejs 4.x from nodesource repo
     class { '::nodejs':
-      repo_url_suffix => '4.x',
+      repo_url_suffix => '6.x',
     }
   }
 }
