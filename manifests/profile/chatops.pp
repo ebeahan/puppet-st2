@@ -31,7 +31,7 @@ class st2::profile::chatops (
   $tls_cert_reject_unauthorized = $::st2::params::tls_cert_reject_unauthorized,
   $hubot_name                   = $::st2::params::hubot_name,
   $npm_packages                 = $::st2::chatops_adapter,
-  $adapter_config               = $::st2::chatops_adapter_conf,
+  $adapter_config               = $::st2::chatops_adapter_config,
 ) inherits st2 {
   include '::st2::params'
 

@@ -162,7 +162,7 @@ class st2::params(
   $tls_cert_reject_unauthorized = '0'
   $hubot_name = 'hubot'
   $chatops_adapter = {}
-  $chatops_adapter_conf = {}
+  $chatops_adapter_config = {}
 
 
 }
